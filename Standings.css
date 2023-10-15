@@ -20,4 +20,38 @@
    .u-section-1 {
     min-height: 1046px;
   }
+
+  .u-section-1 .u-video-1 {
+    right: -143px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-video-1 {
+    left: -53px;
+    right: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-video-1 {
+    height: 1046px;
+    left: auto;
+    bottom: auto;
+    right: auto;
+    top: auto;
+    margin: -33px auto 33px calc(((100% - 540px) / 2) + -207px);
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    min-height: 320px;
+  }
+
+  .u-section-1 .u-video-1 {
+    width: 340px;
+    height: 320px;
+    margin-left: calc(((100% - 340px) / 2));
+  }
 }
